@@ -1,0 +1,45 @@
+body{
+	padding-top:50px;
+
+}
+.principal{
+	padding: 40px 15px;
+	text-align: center;
+
+}
+.msg{
+	width: 600px;
+	resize:none;
+}
+.pos{
+}
+.tamanho-botao{
+
+	width: 150px;
+	height: 70px;
+}
+.botao-despesas{
+	background-color: 	#EE0000;
+	color:white;
+
+	position: absolute;
+	bottom: 120px;
+	left: 300px;
+}
+.botao-receitas{
+	background-color: #00EE00;
+	color :white;
+
+	position: absolute;
+	bottom: 120px;
+	left:100px;
+}
+.botao-cartao{
+	background-color: 	#EEEE00;
+	color :white;
+
+
+	position: absolute;
+	bottom	: 120px;
+	left: 490px;
+}
