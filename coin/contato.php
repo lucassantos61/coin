@@ -2,7 +2,7 @@
 $titulo = "Contato";
 require_once ("cabecalho.php");?>
 	<h1>Contato</h1>
-	<form method = "post" action = "enviar-email.php">
+	<form method = "post" action = "envia-contato.php">
 		<table class = "table">
 			<tr>
 				<td>Nome :</td>
@@ -20,13 +20,12 @@ require_once ("cabecalho.php");?>
 			<tr>
 				<td>Comentario : </td>
 				<div class = "col-sm-10">
-				<td><textarea class = "form-control msg"  rows ="4" placeholder = "Comentario"  required>
-				</textarea>
+				<td><textarea class = "form-control msg" name="comentario"  rows ="4" placeholder = "Comentario"  required></textarea>
 			</td>
 			</div>
 			</tr>
 			<tr>
-				<td><input type = "submit" value = "cadastrar" class = "btn btn-primary"><td>
+				<td><input type = "submit" value = "envia" class = "btn btn-primary"><td>
 			</tr>
 		</table>
 	</form>

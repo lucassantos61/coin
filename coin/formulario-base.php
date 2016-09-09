@@ -1,6 +1,6 @@
 			<tr>
 				<td>Nova receita</td>
-				<td ><input type = "number" name = "receita" class = "form-control"></td>
+				<td ><input type = "number" step = 0.01 name = "receita" class = "form-control"></td>
 			</tr>
 			<tr>
 				<td>Data</td>
