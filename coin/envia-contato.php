@@ -13,7 +13,7 @@
 	$mail->SMTPSecure = "tls";
 	$mail->SMTPAuth = true;
 	$mail->Username = "lucasferreira241@gmail.com";
-	$mail->Password = "Seila101";
+	$mail->Password = "SENHA";
 
 	$mail->setFrom("lucasferreira241@gmail.com","Contato sobre o coin");
 	$mail->addAddress("lucasferreira241@gmail.com");
